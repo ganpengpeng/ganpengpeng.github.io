@@ -29,14 +29,14 @@ description_footer: 本站记录我学习过程中碰到的有趣的问题！
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
 duoshuo_shortname: #hygblog
-disqus_shortname: gaohaoyang
+disqus_shortname: ganpeng
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
-google_analytics_id: UA-72449510-4 # google 分析追踪id
+baidu_tongji_id: f02d1d6aefee3667abdf924f34e2f8c9
+google_analytics_id: UA-122151319-1 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
