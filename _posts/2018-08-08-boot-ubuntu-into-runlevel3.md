@@ -42,3 +42,9 @@ env DEFAULT_RUNLEVEL=2
 第二种方法的作用其实就是把`3`作为启动参数传递给内核，在grub界面按下`e`键后可以看到具体参数。
 
 另外在grub界面按下`e`键可以直接修改启动参数，不必每次修改grub配置文件并update-grub。
+
+安装cuda之后在跑示例程序时失败了，开始没找到原因，因为所有的命令都是按照官方的installation guide上执行的，后来把在ubuntu设置界面Additional Drivers安装的NVIDIA闭源驱动卸载了再次重新安装cuda，这次示例程序可以正确运行。并且这个界面的驱动变成了下面这样：
+
+![additional dervers](/static/additional drivers.png)
+
+基于以上情况猜测第一次cuda没能正确运行是因为之前已经有了一个驱动。
