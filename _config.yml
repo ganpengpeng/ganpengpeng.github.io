@@ -35,7 +35,7 @@ disqus_shortname: ganpeng
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: f02d1d6aefee3667abdf924f34e2f8c9
+baidu_tongji_id: 856acab6b5c9d5f8cb7df0be264e6c26
 google_analytics_id: UA-122151319-1 # google 分析追踪id
 
 # Build settings
